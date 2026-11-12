@@ -1,0 +1,7 @@
+{
+  "name": "review",
+  "version": "0.1.0",
+  "description": "Review lenses that flag without scoring: allergist, taste, and guardrails.",
+  "author": { "name": "Chuck Dries", "url": "https://github.com/crdant" },
+  "keywords": ["writing","review","editing"]
+}

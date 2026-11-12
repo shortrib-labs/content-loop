@@ -1,0 +1,7 @@
+{
+  "name": "voice",
+  "version": "0.1.0",
+  "description": "The author's voice, style, editorial identity, channel profiles, and the hand-run lessons loop that grows them.",
+  "author": { "name": "Chuck Dries", "url": "https://github.com/crdant" },
+  "keywords": ["writing","voice","style"]
+}

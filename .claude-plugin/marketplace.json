@@ -1,0 +1,30 @@
+{
+  "name": "content-loop",
+  "description": "The hand-run writing loop: mirror, interview, draft, review.",
+  "owner": {
+    "name": "Chuck Dries",
+    "url": "https://github.com/crdant"
+  },
+  "plugins": [
+    {
+      "name": "voice",
+      "source": "./plugins/voice",
+      "description": "The author's voice files and the lessons loop that grows them."
+    },
+    {
+      "name": "mirror",
+      "source": "./plugins/mirror",
+      "description": "Reflects back the questions the author keeps circling."
+    },
+    {
+      "name": "drafting",
+      "source": "./plugins/drafting",
+      "description": "Research brief, interview panel, and your-words drafting."
+    },
+    {
+      "name": "review",
+      "source": "./plugins/review",
+      "description": "Allergist, taste, and guardrails review lenses."
+    }
+  ]
+}
