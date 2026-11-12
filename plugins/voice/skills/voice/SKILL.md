@@ -1,6 +1,6 @@
 ---
 name: voice
-description: The author's voice, style, editorial identity, channel profiles, and accumulated content lessons for Shortrib Labs writing. Use before drafting, revising, or reviewing anything published under the author's name (blog posts, LinkedIn, Bluesky, X), when choosing a channel for an idea, or when another skill says to load the voice files.
+description: Provides the author's voice profile, style rules, editorial identity, channel profiles, and accumulated content lessons for Shortrib Labs writing. Use before drafting, writing a post, revising, editing, or reviewing a draft of anything published under the author's name (blog posts, LinkedIn, Bluesky, X), when choosing a channel for an idea, or when another skill says to load the voice files.
 ---
 
 # Voice
