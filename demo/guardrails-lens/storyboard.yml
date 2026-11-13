@@ -1,0 +1,22 @@
+# storyboard.yml: the web scene of the guardrails-lens demo, in the demo
+# factory's shot-scraper format. It opens the demo's pull request, scrolls to
+# the Tessl Skill Review comment the skill-review workflow posted, and opens
+# its full details. The repository is private, so record with a signed-in
+# GitHub session kept outside the repository:
+#   shot-scraper video demo/guardrails-lens/storyboard.yml --auth <github-auth.json>
+# Replace PR_NUMBER with the demo pull request's number before recording.
+output: /tmp/web-pr-review.webm
+url: https://github.com/shortrib-labs/content-loop/pull/PR_NUMBER
+viewport: { width: 1280, height: 800 }
+cursor: true
+wait_for: "h2:has-text('Tessl Skill Review')"
+scenes:
+  - name: web-pr-review
+    do:
+      - pause: 2
+      - scroll: { to: "h2:has-text('Tessl Skill Review')", duration: 1.5 }
+      - pause: 4
+      - click: "summary:has-text('Full review details')"
+      - pause: 1.5
+      - scroll: { y: 450, duration: 1.5 }
+      - pause: 5

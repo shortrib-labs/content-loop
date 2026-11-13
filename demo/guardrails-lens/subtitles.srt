@@ -1,0 +1,32 @@
+1
+00:00:00,350 --> 00:00:19,980
+This is guardrails-lens, the last review pass in the writing loop. Tessl review
+run scores it in the terminal: validation checks first, then judges for the
+content and the description. It comes back at ninety percent. The description
+judge says why. There are no phrases a person would actually use to ask for it,
+and some overlap with general editing skills.
+
+2
+00:00:20,730 --> 00:00:40,360
+Tessl review fix acts on that feedback. It rewrites the skill, reviews the
+rewrite, and keeps going until it reaches the target score. Each round takes a
+few minutes, so this part is sped up. The skill reached ninety-five percent, and
+only the description changed. It now leads with the argument problems this lens
+catches, and adds the phrases people use to ask for it.
+
+3
+00:00:41,160 --> 00:00:43,830
+A fresh review confirms it: ninety-five percent.
+
+4
+00:00:46,760 --> 00:00:59,650
+Now the change goes through the same gate as any other. Push the branch, open
+the pull request, and watch the checks. A Tessl skill review runs on every pull
+request that touches a skill, next to the plugin validation.
+
+5
+00:01:00,400 --> 00:01:16,120
+On GitHub, the review lands as a single comment on the pull request: a score for
+each changed skill, any validation warnings, and the full breakdown from each
+judge one click away. Nothing was published to the registry. It all ran in the
+repository's own workflow.
