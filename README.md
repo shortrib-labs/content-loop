@@ -40,3 +40,23 @@ tessl review fix plugins/<plugin>/skills/<skill> --workspace shortrib-labs
 ```
 
 `fail-threshold` is 0 while the baseline settles. Raise it to gate merges.
+
+## License and disclosures
+
+MIT. See [LICENSE](LICENSE).
+
+- **Adapted work.** `guardrails-lens` is adapted from the `guardrails` skill
+  in Katie Parrott's [draft-review-kit](https://github.com/EveryInc/draft-review-kit)
+  (MIT). Her notice ships with the plugin in
+  [`plugins/review/NOTICE.md`](plugins/review/NOTICE.md).
+- **Interview personas.** The six interviewers in `interview` (Studs Terkel,
+  Adam Gordon Bell, Ezra Klein, Howard Stern, Terry Gross, Jad Abumrad) are
+  characterizations drawn from their public work. None of them is affiliated
+  with or endorses this project.
+- **Voice files.** The `voice` plugin describes my writing voice. It was
+  derived from my published essays and from my own side of work calls. The
+  quotes in it are mine.
+- **AI assistance.** These skills were written and are maintained with
+  Claude Code.
+- **Employer.** I work at Tessl, and this repository uses Tessl's skill
+  review. It's a personal Shortrib Labs project, not a Tessl product.

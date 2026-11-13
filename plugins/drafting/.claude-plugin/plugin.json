@@ -2,6 +2,14 @@
   "name": "drafting",
   "version": "0.1.0",
   "description": "Interview the author, then draft only from their own words. Optional research brief first.",
-  "author": { "name": "Chuck Dries", "url": "https://github.com/crdant" },
-  "keywords": ["writing","interview","drafting"]
+  "author": {
+    "name": "Chuck D'Antonio",
+    "url": "https://github.com/crdant"
+  },
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "interview",
+    "drafting"
+  ]
 }

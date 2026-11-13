@@ -2,6 +2,15 @@
   "name": "mirror",
   "version": "0.1.0",
   "description": "Reflects back the questions the author keeps circling, from daily notes, linked calls, and Readwise.",
-  "author": { "name": "Chuck Dries", "url": "https://github.com/crdant" },
-  "keywords": ["writing","ideas","obsidian","readwise"]
+  "author": {
+    "name": "Chuck D'Antonio",
+    "url": "https://github.com/crdant"
+  },
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "ideas",
+    "obsidian",
+    "readwise"
+  ]
 }
