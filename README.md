@@ -41,6 +41,11 @@ tessl review fix plugins/<plugin>/skills/<skill> --workspace shortrib-labs
 
 `fail-threshold` is 0 while the baseline settles. Raise it to gate merges.
 
+[`docs/tessl-skill-review.pdf`](docs/tessl-skill-review.pdf) is a one-page
+guide to setting this up, and
+[`docs/guardrails-lens-demo.mp4`](docs/guardrails-lens-demo.mp4) shows the
+loop end to end on `guardrails-lens`.
+
 ## License and disclosures
 
 MIT. See [LICENSE](LICENSE).

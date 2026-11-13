@@ -3,8 +3,8 @@
 A narrated walkthrough of the skill review loop on `guardrails-lens`: review it,
 let `tessl review fix` improve it, review it again, open a pull request, and read
 the Tessl Skill Review comment on GitHub. The sources follow the Tessl demo
-factory's format (`gtm/automated-demo` in the Tessl monorepo). The video is a
-binary artifact and stays out of this repository.
+factory's format (`gtm/automated-demo` in the Tessl monorepo). The rendered
+video is [`docs/guardrails-lens-demo.mp4`](../../docs/guardrails-lens-demo.mp4).
 
 | # | Scene | Source |
 |---|---|---|
