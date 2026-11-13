@@ -9,7 +9,7 @@ output: /tmp/web-pr-review.webm
 url: https://github.com/shortrib-labs/content-loop/pull/PR_NUMBER
 viewport: { width: 1280, height: 800 }
 cursor: true
-wait_for: "text=Tessl Skill Review"
+wait_for: "h2:has-text('Tessl Skill Review')"
 scenes:
   - name: web-pr-review
     do:
