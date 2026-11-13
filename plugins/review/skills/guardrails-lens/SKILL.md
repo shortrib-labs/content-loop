@@ -1,6 +1,6 @@
 ---
 name: guardrails-lens
-description: Scan a draft in three passes for clarity and evidence gaps, argument problems (straw men, false binaries, AI determinism, stakes inflation), and structural mechanics, logging each finding with location, verbatim line, diagnosis, and suggested fix. Flags, never scores. Use as the last review lens on a draft, after the allergist and taste-lens.
+description: "Argument check first: scan a draft in three passes for argument problems (straw men, false binaries, AI determinism, stakes inflation), then clarity and evidence gaps, then structural mechanics, logging each finding with location, verbatim line, diagnosis, and suggested fix. Flags, never scores. Use when the user asks to review, fact-check, tighten, or edit a draft before publishing — 'review my writing', 'edit my essay', 'argument check'. Runs as the last review lens on a draft, after the allergist and taste-lens."
 ---
 
 # Guardrails lens
