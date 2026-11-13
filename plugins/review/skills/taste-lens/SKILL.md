@@ -1,22 +1,18 @@
 ---
 name: taste-lens
-description: Check a draft against the author's editorial taste as a pass/flag review, covering adverbs, hedges, AI transitions, corporate bloat, bullets in narrative, flat openings, and a preserve list that protects facts and the author's point. Quotes every hit and never scores. Use after the allergist and before guardrails-lens when reviewing a draft for publication.
+description: "Style pass against the author's editorial taste: quote every adverb propping a weak verb, adjective stack, hedge, AI transition or cliché, corporate-bloat word, filler closer, emoji, bullet run in narrative, and flat opening, then check fixes against a preserve list that protects facts, links, and the author's point. Flags, never scores or proofreads. Use when the user asks to edit, tighten, or do a style pass on a draft before publishing — 'edit my draft', 'tighten this', 'does this read well'. Runs as the second review lens, after the allergist and before guardrails-lens."
 ---
 
 # Taste lens
 
-The author's editorial standards as a pass/flag check. It runs second, after
-the `allergist`. It flags passages with quotes and doesn't score. Fixes follow
-the drafting skill's your-words rule, and edited passages go back through the
-allergist.
+Fixes follow the drafting skill's your-words rule, and edited passages go back
+through the allergist.
 
 ## Stay in your lane
 
-The allergist owns every entry in its allergy list: reversals, restatement,
-triads, hollow parallelism, fortune-cookie closes, pseudo-Q&A, "Maybe"
-anaphora, the AI-tell lexicon, fake numbers, and em-dash density. If one of
-those reaches this lens, the allergist missed it. Send the draft back rather
-than flagging it here.
+The allergist owns every entry in its allergy list. If one of those reaches
+this lens, the allergist missed it. Send the draft back rather than flagging it
+here.
 
 ## The sentence standard
 
